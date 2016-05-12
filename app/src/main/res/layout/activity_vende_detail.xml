@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow
+        android:weightSum="5"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tableRow">
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_vendor"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Company Name"
+            android:id="@+id/txt_vendor_name" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_contact_info"
+        android:id="@+id/textView2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/tableRow"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USA New York,1024 12th Avenue 123-45"
+        android:id="@+id/txtContactInfo"
+        android:layout_below="@+id/textView2"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

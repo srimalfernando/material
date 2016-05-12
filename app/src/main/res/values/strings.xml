@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Material</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Action Bar-->
+    <string name="back">Go Back</string>
+
+    <!--Text view Texts-->
+    <string name="text_available_vendors">Available from following vendors</string>
+    <string name="text_contact_info">Contact Information</string>
+    
+    <!--Hint Texts -->
+    <string name="hint_density_min">Density min</string>
+    <string name="hint_density_max">Density max</string>
+    <string name="hint_melting_point_max">Melting point max</string>
+    <string name="hint_melting_point_min">Melting point min</string>
+
+    <!-- Button Text-->
+    <string name="btn_text_search">Search</string>
+
+    <!--Dialog Text-->
+    <string name="alert_text">Alert</string>
+    <string name="alert_no_result">Sorry no materials found with given properties, Please modify your query.</string>
+    <string name="btn_go_back">Go Back</string>
+    <string name="error">Sorry Error Occourred ! , Please Try Again </string>
+    <string name="no_network">No Internet Connection !</string>
+</resources>

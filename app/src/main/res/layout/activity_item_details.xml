@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Steel"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtItemType"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Detailed Information"
+        android:id="@+id/txtItemDescription"
+        android:layout_below="@+id/txtItemType"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Density"
+        android:id="@+id/txtDensity"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/txtItemDescription"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Melting Point"
+        android:id="@+id/txtMeltingPoint"
+        android:layout_below="@+id/txtDensity"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_available_vendors"
+        android:id="@+id/txtfollowing"
+        android:layout_below="@+id/txtMeltingPoint"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerview_vendors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:divider="#dc8e8e"
+        android:dividerHeight="5dp"
+        />
+    <!--</LinearLayout>-->
+
+</LinearLayout>
